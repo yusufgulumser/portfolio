@@ -1,0 +1,251 @@
+{
+  "header": {
+    "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "contact": "İletişim"
+    }
+  },
+  "hero": {
+    "greeting": "Merhaba, Ben",
+    "name": "Yusuf Gülümser",
+    "title": "Ben bir",
+    "roles": ["Mobil Geliştirici", "React Native Geliştirici", "Fullstack Geliştirici", "Yazılım Mühendisi", "Nest.js Geliştirici"],
+    "description": "Mobil uygulama geliştirme konusunda uzmanlaşmış tutkulu bir yazılım geliştiricisiyim. React Native kullanarak modern ve fonksiyonel mobil uygulamalar geliştiriyorum. Kullanıcı deneyimini ön planda tutarak şık ve akıcı arayüzler tasarlamaktan keyif alıyorum.",
+    "viewProjects": "Projelerimi Görüntüle",
+    "downloadCV": "CV İndir",
+    "scrollDown": "Aşağı Kaydır"
+  },
+  "about": {
+    "subtitle": "Beni Tanıyın",
+    "title": "Hakkımda",
+    "description": "Mobil uygulama geliştirme konusunda uzmanlaşmış yazılım mühendisi",
+    "story": {
+      "title": "Hikayem",
+      "para1": "Merhaba! Ben Yusuf, mobil uygulama geliştirme konusunda uzmanlaşmış bir yazılım mühendisiyim. React Native kullanarak modern ve fonksiyonel uygulamalar geliştirmeyi seviyorum. Kullanıcı deneyimini ön planda tutarak şık ve akıcı arayüzler tasarlamaktan keyif alıyorum.",
+      "para2": "Kariyerim boyunca C++, Java, Kotlin ve JavaScript gibi çeşitli programlama dillerinde yetkinlik kazandım. Özellikle React Native framework ile mobil uygulama geliştirme konusunda uzmanlaştım ve birçok başarılı projeye imza attım.",
+      "para3": "Eteration şirketinde yazılım mühendisi olarak çalışıyorum. Profesyonel yazılım geliştirme süreçlerini yönetiyor ve ReportBack gibi gerçek dünya projelerinde aktif rol alıyorum. Mobil uygulama geliştirme konusundaki tutkum ve sürekli öğrenme isteğim ile sektörde fark yaratmaya devam ediyorum."
+    },
+    "values": {
+      "title": "Değerlerim",
+      "continuousLearning": {
+        "title": "Sürekli Öğrenme",
+        "description": "Yeni teknolojileri öğrenme ve kendimi geliştirme tutkusu"
+      },
+      "mobileFocused": {
+        "title": "Mobil Odaklı",
+        "description": "Kullanıcı deneyimini önceleyeyen mobil uygulamalar"
+      },
+      "innovativeSolutions": {
+        "title": "Yenilikçi Çözümler",
+        "description": "AI teknolojilerini kullanarak yaratıcı çözümler oluşturma"
+      },
+      "passion": {
+        "title": "Tutku",
+        "description": "Yazılım geliştirme ve kaliteli kod yazma tutkum"
+      }
+    },
+    "experience": {
+      "title": "Deneyimim",
+      "eteration": {
+        "title": "Yazılım Mühendisliği Stajyeri",
+        "company": "Eteration",
+        "period": "2025 - Devam Ediyor",
+        "description": "React Native ile ReportBack mobil uygulaması üzerinde çalıştım, UI geliştirme ve özellik entegrasyonu konularında odaklandım. NestJS ve React Native teknolojilerini kullanarak şirket içi projelere katkıda bulundum."
+      },
+      "personal": {
+        "title": "Mobil Uygulama Geliştirici",
+        "company": "Serbest Çalışan",
+        "period": "2023-Devam Ediyor",
+        "description": "Serbest çalışan olarak tam kapsamlı mobil uygulamalar tasarlıyor ve geliştiriyorum. AI destekli not alma uygulaması ve halı yıkama hizmet uygulaması gibi başarılı projeleri eksiksiz backend çözümleriyle birlikte oluşturdum."
+      },
+      "education": {
+        "title": "Yazılım Mühendisliği Öğrencisi",
+        "company": "Nişantaşı Üniversitesi",
+        "period": "2020-2025",
+        "description": "Yazılım geliştirme konusunda kapsamlı eğitim aldım. C++, Java, Kotlin ve JavaScript gibi programlama dillerinde yetkinlik kazandım."
+      }
+    },
+    "stats": {
+      "projects": "Tamamlanan Proje",
+      "experience": "Yıl Deneyim",
+      "clients": "Mutlu Müşteri",
+      "success": "Proje Başarı Oranı"
+    }
+  },
+  "skills": {
+    "subtitle": "Neler Yapabilirim",
+    "title": "Yeteneklerim",
+    "description": "Modern teknolojiler ve programlama dilleri ile yaratıcı çözümler oluşturma",
+    "technicalSkills": "Teknik Yetenekler",
+    "categories": {
+      "frontend": "Frontend & Mobil",
+      "backend": "Backend & Veritabanı",
+      "languages": "Programlama Dilleri",
+      "tools": "Araçlar & Teknolojiler"
+    },
+    "expertise": {
+      "title": "Uzmanlık Alanlarım",
+      "problemSolving": "Problem Çözme",
+      "mobileUX": "Mobil UX/UI",
+      "apiIntegration": "API Entegrasyonu",
+      "creativity": "Yaratıcılık",
+      "continuousLearning": "Sürekli Öğrenme",
+      "academicSuccess": "Akademik Başarı"
+    },
+    "services": {
+      "title": "Sunduğum Hizmetler",
+      "mobileApp": {
+        "title": "Mobil Uygulama Geliştirme",
+        "description": "React Native ile modern ve performanslı mobil uygulamalar"
+      },
+      "webDev": {
+        "title": "Web Geliştirme",
+        "description": "Duyarlı ve kullanıcı odaklı web siteleri"
+      },
+      "backend": {
+        "title": "Backend Geliştirme",
+        "description": "Ölçeklenebilir ve güvenli backend çözümleri"
+      }
+    }
+  },
+  "projects": {
+    "subtitle": "Portfolio",
+    "title": "Projelerim",
+    "description": "Modern teknolojiler ve en iyi uygulamalar kullanarak geliştirdiğim projeler.",
+    "filters": {
+      "all": "Tüm Projeler",
+      "mobile": "Mobil Uygulamalar",
+      "professional": "Profesyonel",
+      "featured": "Öne Çıkanlar"
+    },
+    "moreProjects": {
+      "title": "Daha Fazla Proje",
+      "description": "GitHub profilimde daha fazla proje ve katkılarımı inceleyebilirsiniz",
+      "button": "GitHub Profilim"
+    },
+    "projectDetails": {
+      "carpet": {
+        "title": "Gülümser Halı Yıkama",
+        "description": "Halı yıkama hizmetleri için geliştirilmiş kapsamlı mobil uygulama. Müşteri ve yönetici panelleri olan gelişmiş sipariş yönetim sistemi, gerçek zamanlı takip ve otomatik bildirimler içerir.",
+        "longDescription": "React Native ile geliştirilen bu uygulama, halı yıkama hizmetlerinin yönetimi için kapsamlı bir çözüm sunuyor. Express.js backend ile kullanıcı kimlik doğrulama, sipariş yönetimi ve gerçek zamanlı güncellemeler sağlanıyor. Firebase entegrasyonu ile push bildirimleri ve canlı sipariş takibi mümkün.",
+        "features": [
+          "Kullanıcı kimlik doğrulama sistemi",
+          "Sipariş oluşturma ve takip",
+          "Gerçek zamanlı durum güncellemeleri",
+          "Sipariş yönetimi olan yönetici paneli",
+          "Push bildirim entegrasyonu",
+          "Gelir hesaplama ve raporlama"
+        ],
+        "status": "Google Play Store'da Yayında"
+      },
+      "notly": {
+        "title": "NotlyAi - AI Not Uygulaması",
+        "description": "OpenAI entegrasyonlu akıllı not alma uygulaması. Gelişmiş AI destekli not kategorilendirme, akıllı özetleme ve üretkenliği artıran etkileşimli sohbet özellikleri.",
+        "longDescription": "React Native ile geliştirilen bu AI destekli not uygulaması, kullanıcıların notlarını akıllıca kategorilendirmesine ve özetlemesine yardımcı oluyor. OpenAI entegrasyonu ile doğal dil işleme, içerik özetleme, dil düzeltme ve notlardan hatırlatıcı oluşturma özelikleri sunuyor.",
+        "features": [
+          "AI destekli not kategorilendirme",
+          "Akıllı içerik özetleme",
+          "Dil düzeltme ve öneriler",
+          "Not analizinden hatırlatıcılar",
+          "Çoklu dil desteği",
+          "Tema özelleştirme",
+          "Dinamik dil seçimi"
+        ],
+        "status": "Geliştirme Aşamasında"
+      },
+      "dreamCatcher": {
+        "title": "Dream Catcher AI",
+        "description": "AI tabanlı rüya analizi uygulaması. Kullanıcıların rüyalarını kaydedip gelişmiş AI analizi ve örüntü tanıma ile kişiselleştirilmiş içgörüler aldığı eşsiz ve sürükleyici bir mobil deneyim.",
+        "longDescription": "OpenAI API kullanılarak geliştirilen bu eşsiz uygulama, kullanıcıların rüyalarını kaydetmesine ve yapay zeka ile analiz etmesine olanak sağlıyor. Modern arayüz tasarımı ve kullanıcı merkezli deneyim sunuyor.",
+        "features": [
+          "Rüya kayıt sistemi",
+          "AI tabanlı rüya analizi",
+          "Rüya geçmişi ve istatistikler",
+          "Tema özelleştirme",
+          "Kullanıcı dostu arayüz",
+          "Veri güvenliği"
+        ],
+        "status": "Kişisel Proje"
+      },
+      "reportback": {
+        "title": "ReportBack - Eteration",
+        "description": "Eteration şirketinde staj sürecimde AI chat desteği eklenmesine ve kullanıcı arayüzü geliştirmesine katkıda bulunduğum, kusursuz bir kullanıcı deneyimi oluşturmaya odaklandığım profesyonel raporlama uygulaması.",
+        "longDescription": "Profesyonel iş ortamında geliştirdiğim mobil uygulama projesi. React Native kullanılarak geliştirilmiş, özellikle AI-powered chat sistemi entegrasyonu ve UI geliştirme konularında önemli katkılar sağladığım proje.",
+        "features": [
+          "AI destekli sohbet sistemi",
+          "Modern UI/UX tasarım",
+          "Rapor oluşturma sistemi",
+          "Kullanıcı arayüzü geliştirme",
+          "API entegrasyonu",
+          "Responsive tasarım"
+        ],
+        "status": "Profesyonel Proje - Eteration"
+      },
+      "mealExplorer": {
+        "title": "Meal Explorer App",
+        "description": "Tarif keşif uygulaması. Dinamik kategori filtreleme ve favori yönetim sistemi ile duyarlı arayüz tasarımı.",
+        "longDescription": "React Native ile geliştirilen tarif uygulaması. Kullanıcıların tarifleri keşfetmesine, kategorilere göre filtrelemesine ve favori sistemini kullanmasına olanak sağlıyor.",
+        "features": [
+          "Tarif kategori filtreleme",
+          "Favori yönetim sistemi",
+          "Detaylı tarif bilgileri",
+          "Duyarlı UI tasarım",
+          "Kolay navigasyon"
+        ],
+        "status": "Tamamlandı"
+      },
+      "atmSimulator": {
+        "title": "ATM Simülatörü",
+        "description": "ATM işlemlerini simüle eden mobil uygulama. SQLite ile işlem verisi yönetimi ve temel ATM fonksiyonları.",
+        "longDescription": "Eğitim amaçlı geliştirilen ATM simülatör uygulaması. Temel ATM işlemlerini simüle ediyor ve SQLite veritabanı ile işlem geçmişini yönetiyor.",
+        "features": [
+          "Nakit çekme simülasyonu",
+          "Para yatırma işlemi",
+          "Bakiye sorgulama",
+          "İşlem geçmişi",
+          "SQLite veri yönetimi"
+        ],
+        "status": "Eğitim Projesi"
+      }
+    },
+    "buttons": {
+      "detail": "Detay",
+      "demo": "Demo"
+    },
+    "common": {
+      "mobileApp": "Mobil Uygulama",
+      "gallery": "Fotoğraf Galerisi"
+    }
+  },
+  "contact": {
+    "title": "İletişime Geç",
+    "subtitle": "Proje Fikirlerinizi Paylaşalım",
+    "description": "Yeni bir proje mi planlıyorsunuz? Hemen iletişime geçin ve hayalinizdeki uygulamayı birlikte geliştirelim.",
+    "emailAction": "Email Gönder",
+    "githubAction": "Profili Ziyaret Et",
+    "linkedinAction": "Bağlantı Kur",
+    "location": "Lokasyon",
+    "locationDetails": "İstanbul, Türkiye",
+    "remote": "Remote Çalışmaya Açık"
+  },
+  "footer": {
+    "logo": {
+      "name": "Yusuf Gülümser",
+      "subtitle": "Mobil Geliştirici"
+    },
+    "description": "React Native ile mobil uygulama geliştirme konusunda uzmanlaşmış yazılım mühendisliği öğrencisi. Modern teknolojilerle yaratıcı çözümler oluşturuyorum.",
+    "sections": {
+      "navigation": "Navigasyon",
+      "contact": "İletişim"
+    },
+    "copyright": "Tüm hakları saklıdır.",
+    "cvDownload": "CV İndir"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "photos": "fotoğraf"
+  }
+} 
