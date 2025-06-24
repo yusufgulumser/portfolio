@@ -1,7 +1,7 @@
 // Google Analytics utility functions
 
 // Google Analytics Measurement ID (değiştirilmesi gerekiyor)
-export const GA_MEASUREMENT_ID = 'GA_MEASUREMENT_ID'; // Bu değeri gerçek GA ID ile değiştirin
+export const GA_MEASUREMENT_ID = 'G-VSQMJRY71X';
 
 // GA initialization check
 export const isGAInitialized = () => {
