@@ -5,6 +5,7 @@ import { trackProjectFilter, trackProjectDemo, trackProjectGithub } from '../uti
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
+  const [activeImageIndex, setActiveImageIndex] = useState({});
   const { t } = useLanguage();
 
   const projects = [
@@ -112,6 +113,24 @@ const Projects = () => {
     return project.category === activeFilter;
   });
 
+  const handleNextImage = (projectId) => {
+    setActiveImageIndex(prev => {
+      const currentIndex = prev[projectId] || 0;
+      const project = projects.find(p => p.id === projectId);
+      const nextIndex = (currentIndex + 1) % project.gallery.length;
+      return { ...prev, [projectId]: nextIndex };
+    });
+  };
+
+  const handlePrevImage = (projectId) => {
+    setActiveImageIndex(prev => {
+      const currentIndex = prev[projectId] || 0;
+      const project = projects.find(p => p.id === projectId);
+      const prevIndex = (currentIndex - 1 + project.gallery.length) % project.gallery.length;
+      return { ...prev, [projectId]: prevIndex };
+    });
+  };
+
   return (
     <section id="projects" className="projects">
       <div className="container">
@@ -143,22 +162,43 @@ const Projects = () => {
           {filteredProjects.map((project) => (
             <div key={project.id} className="project-card">
               <div className="project-image">
-                {project.image ? (
-                  <img 
-                    src={project.image} 
-                    alt={project.title}
-                    className="project-img"
-                  />
+                {project.gallery && project.gallery.length > 0 ? (
+                  <div className="project-images">
+                    {project.gallery.map((image, index) => (
+                      <img
+                        key={index}
+                        src={image}
+                        alt={`${project.title} - ${index + 1}`}
+                        className={`project-img ${index === (activeImageIndex[project.id] || 0) ? 'active' : ''}`}
+                      />
+                    ))}
+                    {project.gallery.length > 1 && (
+                      <>
+                        <div className="gallery-navigation">
+                          <button className="gallery-btn" onClick={(e) => {
+                            e.preventDefault();
+                            handlePrevImage(project.id);
+                          }}>
+                            <i className="fas fa-chevron-left"></i>
+                          </button>
+                          <button className="gallery-btn" onClick={(e) => {
+                            e.preventDefault();
+                            handleNextImage(project.id);
+                          }}>
+                            <i className="fas fa-chevron-right"></i>
+                          </button>
+                        </div>
+                        <div className="image-gallery-indicator">
+                          <i className="fas fa-images"></i>
+                          <span>{(activeImageIndex[project.id] || 0) + 1}/{project.gallery.length}</span>
+                        </div>
+                      </>
+                    )}
+                  </div>
                 ) : (
                   <div className="image-placeholder">
                     <i className="fas fa-mobile-alt"></i>
                     <span>{t('projects.common.mobileApp')}</span>
-                  </div>
-                )}
-                {project.gallery && project.gallery.length > 1 && (
-                  <div className="image-gallery-indicator">
-                    <i className="fas fa-images"></i>
-                    <span>{project.gallery.length} {t('common.photos')}</span>
                   </div>
                 )}
                 <div className="project-overlay">
