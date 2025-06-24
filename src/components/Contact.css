@@ -438,8 +438,6 @@
   opacity: 0.8;
 }
 
-
-
 .form-textarea {
   resize: vertical;
   min-height: 120px;
@@ -538,65 +536,159 @@
 /* Mobile Responsiveness */
 @media (max-width: 1024px) {
   .contact-info {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
     padding: 0 2rem;
+  }
+  
+  .contact-methods {
+    margin-bottom: 2.5rem;
   }
 }
 
 @media (max-width: 768px) {
   .contact {
-    padding: 80px 0;
+    padding: 60px 0;
+  }
+  
+  .contact-header {
+    margin-bottom: 2.5rem;
   }
   
   .contact-info {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 0 1rem;
+    padding-right: 2rem;
+    padding-left: 0;
+  }
+
+  .contact-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin: 0 auto 2.5rem;
+    max-width: 500px;
+    padding-right: 2rem;
+    padding-left: 0;
+  }
+  
+  .contact-method {
+    padding: 1.25rem;
+    width: calc(100% - 3rem);
+    max-width: 400px;
+    margin-right: 3rem;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  
+  .method-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+  
+  .method-content {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .method-content h4 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .method-content span {
+    font-size: 0.95rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   .form-row {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 1.5rem;
   }
   
   .contact-form {
-    padding: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .form-input,
+  .form-select,
+  .form-textarea {
+    padding: 0.9rem 1.1rem;
+    font-size: 0.95rem;
   }
   
   .submit-btn {
     width: 100%;
     padding: 1rem 2rem;
-  }
-  
-  .form-title-animation {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .code-bracket {
-    font-size: 1.5rem;
-  }
-  
-  .animated-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
+  .contact {
+    padding: 40px 0;
+  }
+  
+  .contact-header {
+    margin-bottom: 2rem;
+  }
+
+  .contact-info {
+    padding-right: 1.5rem;
+    padding-left: 0;
+  }
+
+  .contact-methods {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 0;
+  }
+  
   .contact-method {
-    padding: 1rem;
+    padding: 0.875rem 1rem;
+    padding-left: 0.5rem;
+    gap: 0.875rem;
+    max-width: 320px;
+    width: calc(100% - 2rem);
+    margin-right: 2rem;
+    margin-left: 0;
   }
   
   .method-icon {
-    width: 50px;
-    height: 50px;
-    font-size: 1.2rem;
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
   }
   
-  .social-link {
-    width: 45px;
-    height: 45px;
-    font-size: 1.1rem;
+  .method-content h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .method-content span {
+    font-size: 0.85rem;
+  }
+  
+  .form-label {
+    font-size: 0.9rem;
+  }
+  
+  .form-input,
+  .form-select,
+  .form-textarea {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .submit-btn {
+    padding: 0.9rem 1.8rem;
+    font-size: 0.95rem;
   }
 } 

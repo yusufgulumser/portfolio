@@ -384,6 +384,35 @@
     height: 50px;
     font-size: 1.2rem;
   }
+
+  .hero-title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .hero-greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-greeting .typing-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .hero-greeting .typing-text {
+    display: inline-block;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .scroll-down {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -393,6 +422,14 @@
   
   .hero-title {
     font-size: 1.2rem;
+  }
+  
+  .hero-greeting .typing-wrapper {
+    margin-top: 1.5rem;
+  }
+  
+  .hero-greeting .typing-text {
+    margin-top: 0.4rem;
   }
   
   .hero-description {

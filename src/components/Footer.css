@@ -181,6 +181,14 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+
   .footer-bottom-content {
     flex-direction: column;
     text-align: center;
@@ -203,5 +211,15 @@
   .scroll-to-top {
     bottom: 1rem;
     right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.25rem 0;
+  }
+
+  .footer p {
+    font-size: 0.75rem;
   }
 } 

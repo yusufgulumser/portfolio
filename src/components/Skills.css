@@ -334,42 +334,99 @@
 @media (max-width: 1024px) {
   .skills-content {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
   }
   
   .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 768px) {
+  .skills {
+    padding: 60px 0;
+  }
+  
+  .skills-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .selected-category {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
   .skills-tabs {
-    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
   }
-  
+
   .skill-tab {
-    padding: 0.8rem 1rem;
+    padding: 0.75rem 1.25rem;
     font-size: 0.9rem;
-  }
-  
-  .skill-tab span {
-    display: none;
+    flex: 0 1 auto;
+    min-width: auto;
+    white-space: nowrap;
   }
   
   .skills-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    padding: 0 1rem;
   }
   
-  .certifications-grid {
-    grid-template-columns: 1fr;
+  .skill-card {
+    padding: 1.25rem;
   }
   
-  .certification-item {
-    padding: 1.5rem;
+  .skill-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+  
+  .skill-info h4 {
+    font-size: 1rem;
+  }
+  
+  .skill-percentage {
+    font-size: 0.85rem;
+  }
+  
+  .progress-bar {
+    height: 6px;
   }
 }
 
 @media (max-width: 480px) {
+  .skills {
+    padding: 40px 0;
+  }
+  
+  .skills-header {
+    margin-bottom: 2rem;
+  }
+
+  .skills-tabs {
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+
+  .skill-tab {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
   .skill-card {
     padding: 1rem;
   }
@@ -380,8 +437,15 @@
     font-size: 1.2rem;
   }
   
-  .certification-item {
-    flex-direction: column;
-    text-align: center;
+  .skill-info h4 {
+    font-size: 0.95rem;
+  }
+  
+  .skill-percentage {
+    font-size: 0.8rem;
+  }
+  
+  .progress-bar {
+    height: 5px;
   }
 } 

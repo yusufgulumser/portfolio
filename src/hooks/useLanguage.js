@@ -17,14 +17,17 @@ export const LanguageProvider = ({ children }) => {
   const loadTranslations = async (language) => {
     setIsLoading(true);
     try {
-      const response = await fetch(`/locales/${language}.json`);
+      // GitHub Pages için yolu düzenliyoruz
+      const basePath = process.env.PUBLIC_URL || '';
+      const response = await fetch(`${basePath}/locales/${language}.json`);
       const data = await response.json();
       setTranslations(data);
     } catch (error) {
       console.error(`Error loading ${language} translations:`, error);
       // Fallback to English if error
       if (language !== 'en') {
-        const fallbackResponse = await fetch('/locales/en.json');
+        const basePath = process.env.PUBLIC_URL || '';
+        const fallbackResponse = await fetch(`${basePath}/locales/en.json`);
         const fallbackData = await fallbackResponse.json();
         setTranslations(fallbackData);
       }
