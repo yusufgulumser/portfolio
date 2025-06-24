@@ -1,0 +1,251 @@
+{
+  "header": {
+    "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills", 
+    "projects": "Projects",
+    "contact": "Contact"
+    }
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Yusuf Gülümser",
+    "title": "I'm a",
+    "roles": ["Mobile Developer", "React Native Developer", "Fullstack Developer", "Software Engineer", "Nest.js Developer"],
+    "description": "I'm a passionate software developer specializing in mobile application development. I develop modern and functional mobile applications using React Native. I enjoy designing sleek and smooth interfaces with user experience at the forefront.",
+    "viewProjects": "View My Projects",
+    "downloadCV": "Download CV",
+    "scrollDown": "Scroll Down"
+  },
+  "about": {
+    "subtitle": "Get to Know Me",
+    "title": "About Me",
+    "description": "Software engineer specialized in mobile application development",
+    "story": {
+      "title": "My Story",
+      "para1": "Hello! I'm Yusuf, a software engineer specialized in mobile application development. I love developing modern and functional applications using React Native. I enjoy designing sleek and smooth interfaces with user experience at the forefront.",
+      "para2": "Throughout my career, I've gained proficiency in various programming languages such as C++, Java, Kotlin and JavaScript. I've particularly specialized in mobile application development with React Native framework and have successfully delivered numerous projects.",
+      "para3": "I work as a software engineer at Eteration company. I manage professional software development processes and take an active role in real-world projects such as ReportBack. With my passion for mobile app development and desire for continuous learning, I continue to make a difference in the industry."
+    },
+    "values": {
+      "title": "My Values",
+      "continuousLearning": {
+        "title": "Continuous Learning",
+        "description": "Passion for learning new technologies and developing myself"
+      },
+      "mobileFocused": {
+        "title": "Mobile Focused",
+        "description": "Mobile applications that prioritize user experience"
+      },
+      "innovativeSolutions": {
+        "title": "Innovative Solutions",
+        "description": "Creating creative solutions using AI technologies"
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "My passion for software development and writing quality code"
+      }
+    },
+    "experience": {
+      "title": "My Experience",
+      "eteration": {
+        "title": "Software Engineering Intern",
+        "company": "Eteration",
+        "period": "2025 - Present",
+        "description": "Worked on the ReportBack mobile application with React Native, focusing on UI development and feature integration. Contributed to company internal projects using NestJS and React Native technologies."
+      },
+      "personal": {
+        "title": "Mobile Application Developer",
+        "company": "Freelance",
+        "period": "2023-Present",
+        "description": "Working as a freelance developer, designing and developing full-stack mobile applications. Created various successful projects including AI-powered note-taking app and carpet cleaning service app with complete backend solutions."
+      },
+      "education": {
+        "title": "Software Engineering Student",
+        "company": "Nişantaşı University",
+        "period": "2020-2025",
+        "description": "Received comprehensive education in software development. Gained proficiency in programming languages such as C++, Java, Kotlin and JavaScript."
+      }
+    },
+    "stats": {
+      "projects": "Completed Projects",
+      "experience": "Years Experience", 
+      "clients": "Happy Clients",
+      "success": "Project Success Rate"
+    }
+  },
+  "skills": {
+    "subtitle": "What I Can Do",
+    "title": "My Skills",
+    "description": "Creating creative solutions with modern technologies and programming languages",
+    "technicalSkills": "Technical Skills",
+    "categories": {
+      "frontend": "Frontend & Mobile",
+      "backend": "Backend & Database",
+      "languages": "Programming Languages",
+      "tools": "Tools & Technologies"
+    },
+    "expertise": {
+      "title": "Areas of Expertise",
+      "problemSolving": "Problem Solving",
+      "mobileUX": "Mobile UX/UI",
+      "apiIntegration": "API Integration",
+      "creativity": "Creativity",
+      "continuousLearning": "Continuous Learning",
+      "academicSuccess": "Academic Success"
+    },
+    "services": {
+      "title": "Services I Provide",
+      "mobileApp": {
+        "title": "Mobile Application Development",
+        "description": "Modern and performant mobile applications with React Native"
+      },
+      "webDev": {
+        "title": "Web Development", 
+        "description": "Responsive and user-focused websites"
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "Scalable and secure backend solutions"
+      }
+    }
+  },
+  "projects": {
+    "subtitle": "Portfolio",
+    "title": "My Projects",
+    "description": "Here are some projects I've developed using modern technologies and best practices.",
+    "filters": {
+      "all": "All Projects",
+      "mobile": "Mobile Apps",
+      "professional": "Professional",
+      "featured": "Featured"
+    },
+    "moreProjects": {
+      "title": "More Projects",
+      "description": "You can check out more projects and my contributions on my GitHub profile",
+      "button": "My GitHub Profile"
+    },
+    "projectDetails": {
+      "carpet": {
+        "title": "Gülümser Carpet Cleaning",
+        "description": "Full-featured mobile application developed for carpet cleaning services. Comprehensive order management system with customer and admin panels, featuring real-time tracking and automated notifications.",
+        "longDescription": "This application developed with React Native offers a comprehensive solution for managing carpet cleaning services. Express.js backend provides user authentication, order management and real-time updates. Push notifications and live order tracking are possible with Firebase integration.",
+        "features": [
+          "User authentication system",
+          "Order creation and tracking",
+          "Real-time status updates",
+          "Admin panel with order management",
+          "Push notification integration",
+          "Revenue calculation and reporting"
+        ],
+        "status": "Published on Google Play Store"
+      },
+      "notly": {
+        "title": "NotlyAi - AI Note App",
+        "description": "Smart note-taking app with OpenAI integration. Advanced AI-powered note categorization, intelligent summarization, and interactive smart chat features for enhanced productivity.",
+        "longDescription": "This AI-powered note app developed with React Native helps users to intelligently categorize and summarize their notes. It offers natural language processing, content summarization, language correction and reminder creation features from notes with OpenAI integration.",
+        "features": [
+          "AI-powered note categorization",
+          "Smart content summarization",
+          "Language correction and suggestions",
+          "Reminders from note analysis",
+          "Multi-language support",
+          "Theme customization",
+          "Dynamic language selection"
+        ],
+        "status": "In Development"
+      },
+      "dreamCatcher": {
+        "title": "Dream Catcher AI",
+        "description": "AI-based dream analysis app. A unique and immersive mobile experience where users can record their dreams and receive personalized insights through advanced AI analysis and pattern recognition.",
+        "longDescription": "This unique app developed using OpenAI API allows users to record their dreams and analyze them with artificial intelligence. It offers modern interface design and user-centered experience.",
+        "features": [
+          "Dream recording system",
+          "AI-based dream analysis",
+          "Dream history and statistics",
+          "Theme customization",
+          "User-friendly interface",
+          "Data security"
+        ],
+        "status": "Personal Project"
+      },
+      "reportback": {
+        "title": "ReportBack - Eteration",
+        "description": "Professional reporting application where I contributed to AI chat support integration and UI development during my internship at Eteration, focusing on creating a seamless user experience.",
+        "longDescription": "Mobile application project developed in a professional environment. Built with React Native, I made significant contributions especially in AI-powered chat system integration and UI development.",
+        "features": [
+          "AI-powered chat system",
+          "Modern UI/UX design",
+          "Report generation system",
+          "User interface development",
+          "API integration",
+          "Responsive design"
+        ],
+        "status": "Professional Project - Eteration"
+      },
+      "mealExplorer": {
+        "title": "Meal Explorer App",
+        "description": "Recipe discovery app. Responsive interface design with dynamic category filtering and favorite management system.",
+        "longDescription": "Recipe app developed with React Native. Allows users to discover recipes, filter by categories and use the favorite system.",
+        "features": [
+          "Recipe category filtering",
+          "Favorite management system",
+          "Detailed recipe information",
+          "Responsive UI design",
+          "Easy navigation"
+        ],
+        "status": "Completed"
+      },
+      "atmSimulator": {
+        "title": "ATM Simulator",
+        "description": "Mobile app that simulates ATM operations. Transaction data management with SQLite and basic ATM functions.",
+        "longDescription": "ATM simulator app developed for educational purposes. It simulates basic ATM operations and manages transaction history with SQLite database.",
+        "features": [
+          "Cash withdrawal simulation",
+          "Cash deposit operation",
+          "Balance inquiry",
+          "Transaction history",
+          "SQLite data management"
+        ],
+        "status": "Educational Project"
+      }
+    },
+    "buttons": {
+      "detail": "Detail",
+      "demo": "Demo"
+    },
+    "common": {
+      "mobileApp": "Mobile App",
+      "gallery": "Photo Gallery"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's Discuss Your Project Ideas",
+    "description": "Planning a new project? Get in touch and let's develop your dream application together.",
+    "emailAction": "Send Email",
+    "githubAction": "Visit Profile",
+    "linkedinAction": "Connect",
+    "location": "Location",
+    "locationDetails": "Istanbul, Turkey",
+    "remote": "Open to Remote Work"
+  },
+  "footer": {
+    "logo": {
+      "name": "Yusuf Gülümser",
+      "subtitle": "Mobile Developer"
+    },
+    "description": "Software engineering student specialized in mobile application development with React Native. I create creative solutions with modern technologies.",
+    "sections": {
+      "navigation": "Navigation",
+      "contact": "Contact"
+    },
+    "copyright": "All rights reserved.",
+    "cvDownload": "Download CV"
+  },
+  "common": {
+    "loading": "Loading...",
+    "photos": "photos"
+  }
+} 
